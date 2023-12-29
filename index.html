@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="wide wow-animation" lang="en">
   <head>
-    <title>炸洋芋全国连锁</title>
+    <title>喵喵洋芋店</title>
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -55,7 +55,7 @@
                                       <li>
                                           <div class="unit unit-spacing-xs">
                                               <div class="unit-left"><span class="icon fa fa-phone"></span></div>
-                                              <div class="unit-body"><a class="link-phone" href="tel:#">0851-3589745</a></div>
+                                              <div class="unit-body"><a class="link-phone" href="tel:08516666666">0851-6666666</a></div>
                                           </div>
                                       </li>
                                   </ul><a class="button button-md button-default-outline-2 button-ujarak" href="javascript:PotatoSaleCheck()">立即订购</a>
@@ -71,13 +71,13 @@
                                           <a class="rd-nav-link" href="index.html">首页</a>
                                       </li>
                                       <li class="rd-nav-item">
-                                          <a class="rd-nav-link" href="about.html">关于</a>
+                                          <a class="rd-nav-link" href="javascript:GuGuGu()">关于</a>
                                       </li>
                                       <li class="rd-nav-item">
-                                          <a class="rd-nav-link" href="typography.html">介绍</a>
+                                          <a class="rd-nav-link" href="javascript:GuGuGu()">介绍</a>
                                       </li>
                                       <li class="rd-nav-item">
-                                          <a class="rd-nav-link" href="contact-us.html">咨询</a>
+                                          <a class="rd-nav-link" href="javascript:GuGuGu()">咨询</a>
                                       </li>
                                   </ul>
                               </div>
@@ -510,7 +510,7 @@
                                           <li>
                                               <div class="unit">
                                                   <div class="unit-left"><span class="icon fa fa-phone"></span></div>
-                                                  <div class="unit-body"><a class="link-phone" href="tel:#">+1 818-835-0584</a></div>
+                                                  <div class="unit-body"><a class="link-phone" href="tel:08516666666">0851-6666666</a></div>
                                               </div>
                                           </li>
                                           <li>
@@ -522,7 +522,7 @@
                                           <li>
                                               <div class="unit">
                                                   <div class="unit-left"><span class="icon fa fa-location-arrow"></span></div>
-                                                  <div class="unit-body"><a class="link-location" href="#">喵喵王国咪咪市产业大道16路1号 喵喵洋芋店</a></div>
+                                                  <div class="unit-body"><a class="link-location" href="javascript:MapNavigation()">喵喵王国咪咪市产业大道16路1号 喵喵洋芋店</a></div>
                                               </div>
                                           </li>
                                       </ul>
@@ -535,14 +535,14 @@
                                       <h6 class="text-spacing-100 text-uppercase">新闻</h6>
                                       <!-- Post Minimal 2-->
                                       <article class="post post-minimal-2">
-                                          <p class="post-minimal-2-title"><a href="#">喵喵洋芋获多家外卖畅销榜榜首!</a></p>
+                                          <p class="post-minimal-2-title"><a href="javascript:GuGuGu()">喵喵洋芋获多家外卖畅销榜榜首!</a></p>
                                           <div class="post-minimal-2-time">
                                               <time datetime="2023-12-29">2023年12月29日</time>
                                           </div>
                                       </article>
                                       <!-- Post Minimal 2-->
                                       <article class="post post-minimal-2">
-                                          <p class="post-minimal-2-title"><a href="#">喵喵洋芋连续无差评十万单!</a></p>
+                                          <p class="post-minimal-2-title"><a href="javascript:GuGuGu()">喵喵洋芋连续无差评十万单!</a></p>
                                           <div class="post-minimal-2-time">
                                               <time datetime="2023-12-26">2023年12月26日</time>
                                           </div>
@@ -555,11 +555,11 @@
                                   <div class="wow slideInLeft" data-wow-delay="0s">
                                       <h6 class="text-spacing-100 text-uppercase">快捷功能</h6>
                                       <ul class="row-6 list-0 list-marked list-marked-md list-marked-secondary list-custom-2">
-                                          <li><a href="about.html">关于我们</a></li>
-                                          <li><a href="#">热门餐品</a></li>
-                                          <li><a href="#">团队计划</a></li>
-                                          <li><a href="#">出餐速率</a></li>
-                                          <li><a href="#">门店地址</a></li>
+                                          <li><a href="javascript:GuGuGu()">关于我们</a></li>
+                                          <li><a href="javascript:GuGuGu()">投诉建议</a></li>
+                                          <li><a href="javascript:Plan()">团队计划</a></li>
+                                          <li><a href="javascript:CatGet()">出餐速率</a></li>
+                                          <li><a href="javascript:HR()">成员招牌</a></li>
                                       </ul>
                                       <div class="group-md group-middle justify-content-sm-start"><a class="button button-lg button-primary button-ujarak" href="javascript:PotatoSaleCheck()">立即购买</a></div>
                                   </div>
@@ -606,6 +606,41 @@
           function PotatoSaleCheck() {
               // 显示销售限制
               alert("次元校验失败,很抱歉,当前产品仅在喵王国销售,如需购买请先回到喵王国。");
+              location.reload();
+          }
+      </script>
+      <script>
+          function MapNavigation() {
+              // 显示导航错误
+              alert("很抱歉,当前暂不支持跨次元导航。");
+              location.reload();
+          }
+      </script>
+      <script>
+          function CatGet() {
+              // 显示客流量
+              alert("当前客流量较大,出餐速度慢");
+              location.reload();
+          }
+      </script>
+      <script>
+          function GuGuGu() {
+              // 显示客流量
+              alert("当前页面建设中......咕咕咕");
+              location.reload();
+          }
+      </script>
+      <script>
+          function Plan() {
+              // 团队计划
+              alert("计划每天都能卖出好心情!");
+              location.reload();
+          }
+      </script>
+      <script>
+          function HR() {
+              // 招聘
+              alert("目前已经招满了,感谢关注");
               location.reload();
           }
       </script>
